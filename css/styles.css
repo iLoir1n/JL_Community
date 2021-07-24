@@ -76,7 +76,8 @@ body {
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
-    color: #FFF;
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: red;
   }
   
   .main-btn {
