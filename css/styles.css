@@ -70,15 +70,35 @@ body {
   #mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 30px;
+    color: rgb(247, 28, 28);
   }
   
   #mainSlider .carousel-caption p {
     font-size: 25px;
     font-weight: 300;
     margin-bottom: 100px;
-    color: rgb(207, 21, 21);
+    color:white;
   }
   
+  .botao_1 {
+    background-color: rgb(194, 183, 183);
+    color: black;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid ;
+    transition: .5s;
+  }
+
+  .botao_1:hover {
+    text-decoration:none ;
+    color: black;
+    background-color: rgb(201, 68, 68);
+    border-color:rgb(228, 31, 31) ;
+  }
+
   .main-btn {
     background-color: #65DAF9;
     color: #FFF;
@@ -607,4 +627,8 @@ body {
 
 #text-sem-decoracao{
   text-decoration: black;
+}
+
+.texto_borda {
+  text-shadow: 2px 2px black;
 }
