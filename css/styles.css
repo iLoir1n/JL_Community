@@ -172,7 +172,7 @@ body {
     margin-bottom: 50px;
   }
   
-  .service-box i, .service-box h4 {
+  .service-box svg, .service-box h4 {
     transition: .5s;
   }
   
