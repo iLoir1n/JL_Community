@@ -187,7 +187,7 @@ body {
     margin-bottom: 20px;
   }
   
-  .service-box:hover > i, .service-box:hover > h4 {
+  .service-box:hover > svg, .service-box:hover > h4 {
     color: #65DAF9;
   }
   
