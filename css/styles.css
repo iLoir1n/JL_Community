@@ -35,8 +35,8 @@ body {
     color: #FFF;
   }
   
-  .navbar-brand:hover {
-    color: #FFF;
+  .navbar-brand.texto_imagem:hover {
+    color: #65DAF9;
   }
   
   #navbar-links a {
@@ -45,6 +45,10 @@ body {
     margin-right: 5px;
   }
   
+  #navbar-links a:hover {
+    color:#65DAF9;
+  }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
   }
@@ -52,6 +56,7 @@ body {
   .nav-item.active {
     border-bottom: 3px solid #FFF;
   }
+  
   
   /* Slider */
   
@@ -70,7 +75,7 @@ body {
   #mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 30px;
-    color: rgb(247, 28, 28);
+    color: rgb(255, 255, 255);
   }
   
   #mainSlider .carousel-caption p {
